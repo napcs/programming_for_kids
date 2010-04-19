@@ -1,0 +1,19 @@
+=Basic Games For Kids
+When I grew up, I learned to program by typing in BASIC code from the back of magazines and from books I found at the library. There doesn't seem to be anything like that anymore, but I think it's a great way to learn so I'm proposing we bring that back.
+
+== What languages?
+I think we need to keep it simple. I'm going to do my examples in very basic Ruby, although it would be nice to see Python too. If we get enough contributers, maybe we do this in two parts, or we do each program in multiple languages. 
+
+== How to contribute
+Fork this, write a chapter and commit it to the repository. That's it. If you know Docbook, great. Write a chapter using the sample chapter as a template and hook it up in the book.xml file. If you don't, just write it as a text file and someone else can convert it. Put it in the plaintext_chapters folder. If you commit a chapter, I'll add you to the main repo as a committer.
+
+Think of small simple games that you ca do, like Craps, Blackjack, a slot machine, rock-paper-scissors, maybe even a simple text adventure. Graphical games are cool too, and so are math games. Be imaginative, but keep it simple. You don't even really need to explain the concepts if you don't want to - just let the kids type in the code and run it. And don't steal code from somewhere else. Nobody wants to get sued.
+
+We'll also need people to test and verify and review stuff that's been submitted.
+
+== How to get a PDF or HTML
+This will build using the Short Attention Span Docbook chain (http://github.com/napcs/docbook) or pretty much any other docbook system that uses Docbook 5. Oxygen's built-in system seems to work just fine. I'll try to set up a continuous integration system somewhere in the future once there's some serious content, and I'll build frequent copies and link them here.
+
+== License
+Let's leave this completely open. Creative Commons sound good? 
+
