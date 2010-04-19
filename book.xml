@@ -11,30 +11,25 @@
     xmlns:html="http://www.w3.org/1999/xhtml" 
     xmlns:db="http://docbook.org/ns/docbook" version="5.0">
   <info>
-    <title>Your Book Title</title>
-    <subtitle>Your Book Subtitle</subtitle>
+    <title>Basic Games For Kids</title>
+    <subtitle>Teaching Kids Programming The Fun Way!</subtitle>
     <copyright>
-      <year>YEAR</year>
-      <holder>Your Name</holder>
+      <year>2010</year>
+      <holder>A bunch of awesome programmers</holder>
       
     </copyright>
     <author>
       <personname>
-        <firstname>Your</firstname>
-        <surname>Name</surname>
+        <firstname>Brian</firstname>
+        <surname>Hogan</surname>
       </personname>
-      <address>
-        <city>Your City</city>
-        <street>123 Fake Street</street>
-        <postcode>55555</postcode>
-        <country>U.S.A</country>
-      </address>
     </author>
   </info>
 
   
-
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter01.xml"/>
+    <!-- Chapters -->
+    <!-- Create a chapter file, write it up, and include it! -->
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter_rock_paper_scissors.xml"/>
     
 
   <index/>
