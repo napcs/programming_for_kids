@@ -11,6 +11,53 @@ Think of small simple games that you ca do, like Craps, Blackjack, a slot machin
 
 We'll also need people to test and verify and review stuff that's been submitted.
 
+=== Docbook basics
+
+Use <tt>para</tt> for paragraphs, and <tt>sect1</tt>, <tt>sect2</tt>, and <tt>sect3</tt> for section hierarchies.
+
+   <sect1>
+     <title>Overview</title>
+     <para>This is a paragraph.</para>
+     
+     <sect2>
+       <title>This is a subsection</title>
+       <para>This is a paragraph in the subsection.</para>
+     </sect2>
+     
+   </sect1>
+   
+Use <tt>programlisting</tt> for source code.
+
+  <programlisting language="ruby"><![CDATA[
+    puts "Hello there. What is your name?"
+    gets name
+    puts "Hello #{name}! Nice to meet you!"
+  ]]></programlisting>
+
+Use <tt>screen</tt> to show screen output.
+
+  <screen>
+    Hello there. What is your name?
+    Brian
+    Hello Brian! Nice to meet you!
+  </screen>
+  
+You can include a screenshot with this markup
+
+  <figure xml:id="fig.">
+  <title></title>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="" align="center" width="" />
+      </imageobject>
+            <caption><para>Your caption</para></caption>
+    </mediaobject>    
+  </screenshot> 
+  </figure>
+  
+Put images in the images/png folder in a subfolder with the same name as your chapter.
+    
 == How to get a PDF or HTML
 This will build using the Short Attention Span Docbook chain (http://github.com/napcs/docbook) or pretty much any other docbook system that uses Docbook 5. Oxygen's built-in system seems to work just fine. I'll try to set up a continuous integration system somewhere in the future once there's some serious content, and I'll build frequent copies and link them here.
 
