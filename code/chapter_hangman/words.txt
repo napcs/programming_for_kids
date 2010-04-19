@@ -1,0 +1,6 @@
+bird
+cow
+cat
+dog
+snake
+lizard
