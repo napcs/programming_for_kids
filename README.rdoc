@@ -13,7 +13,21 @@ The kid types the game, and he or she then gets to play it. Great for 4th-6th gr
 I think we need to keep it simple. I'm going to do my examples in very basic Ruby, although it would be nice to see Python too. If we get enough contributers, maybe we do this in two parts, or we do each program in multiple languages. 
 
 == How to contribute
-Fork this, write a chapter and commit it to the repository. That's it. If you know Docbook, great. Write a chapter using the sample chapter as a template and hook it up in the book.xml file. If you don't, just write it as a text file and someone else can convert it. Put it in the plaintext_chapters folder. If you commit a chapter, I'll add you to the main repo as a committer.
+Fork this, write a chapter and commit it to the repository. That's it. Please please please make your commits self-contained if possible. Send me a commit I can merge in. Don't modify book.xml or any of the other files in your commit, or at least check in your files into a separate commit I can easily snag. Otherwise send a patch I can apply. That workflow might look like this:
+
+  git checkout -b my_chapter
+  git commit -a -m "I made an awesome Battleship game in Ruby!"
+  git checkout master
+  git pull
+  git checkout my_chapter
+  git rebase master
+  git format-patch master --stdout > my-chapter.diff
+  
+and email it to bphogan at gmail.com and I'll get it applied. Since it's signed, you'll get credit in the logs.
+
+== How to write
+
+If you know Docbook, great. Write a chapter using the sample chapter as a template and hook it up in the book.xml file. If you don't, just write it as a text file and someone else can convert it. Put it in the plaintext_chapters folder. If you commit a chapter, I'll add you to the main repo as a committer.
 
 Think of small simple games that you ca do, like Craps, Blackjack, a slot machine, rock-paper-scissors, maybe even a simple text adventure. Graphical games are cool too, and so are math games. Be imaginative, but keep it simple. You don't even really need to explain the concepts if you don't want to - just let the kids type in the code and run it. And don't steal code from somewhere else. Nobody wants to get sued.
 
