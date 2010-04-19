@@ -20,7 +20,7 @@
         <title>Game Rules</title>
         <para>Coming Soon</para>
       </sect2>
-      <sect3>
+      <sect3 xml:id="code.py.rock.paper.scissors">
         <title>Program Listing - Python</title>
         <programlisting language="python"><![CDATA[
 # -*- coding: utf-8 -*-

@@ -30,6 +30,7 @@
     <!-- Chapters -->
     <!-- Create a chapter file, write it up, and include it! -->
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter_rock_paper_scissors.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="credits.xml"/>
     
 
   <index/>
