@@ -1,28 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter [
-<!ENTITY % allent SYSTEM "w3centities-f.ent">
-%allent;
-]>
-<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:xi="http://www.w3.org/2001/XInclude"
-      xmlns:svg="http://www.w3.org/2000/svg"
-      xmlns:mml="http://www.w3.org/1998/Math/MathML"
-      xmlns:html="http://www.w3.org/1999/xhtml"
-      xmlns:db="http://docbook.org/ns/docbook">
-
-      <title>Rock, Paper, Scissors</title>
-      <sect1>
-        <title>The Game Plan</title>
-        <para>Coming Soon</para>
-      </sect1>
-      <sect2>
-        <title>Game Rules</title>
-        <para>Coming Soon</para>
-      </sect2>
-      <sect3>
-        <title>Program Listing - Python</title>
-        <programlisting language="python"><![CDATA[
 # -*- coding: utf-8 -*-
 
 from random import randint
@@ -90,6 +65,3 @@ def main ():
 
 if __name__ == "__main__":
 	main()
-      ]]></programlisting>
-      </sect3>
-</chapter>
