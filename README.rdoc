@@ -1,6 +1,14 @@
 =Basic Games For Kids
 When I grew up, I learned to program by typing in BASIC code from the back of magazines and from books I found at the library. There doesn't seem to be anything like that anymore, but I think it's a great way to learn so I'm proposing we bring that back.
 
+== What are you talking about, dude?
+
+I'm talking about things like this:
+
+  http://www.atariarchives.org/basicgames/showpage.php?page=36
+  
+The kid types the game, and he or she then gets to play it. Great for 4th-6th graders just getting started. Even greater for parents and teachers to use in class.
+
 == What languages?
 I think we need to keep it simple. I'm going to do my examples in very basic Ruby, although it would be nice to see Python too. If we get enough contributers, maybe we do this in two parts, or we do each program in multiple languages. 
 
