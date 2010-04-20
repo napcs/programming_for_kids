@@ -137,7 +137,6 @@ set       toc,title
     <xsl:attribute name="wrap-option">wrap</xsl:attribute>
     <xsl:attribute name="hyphenation-character">\</xsl:attribute>
     <xsl:attribute name="font-size">8pt</xsl:attribute>
-    <xsl:attribute name="keep-together.within-column">always</xsl:attribute>
 </xsl:attribute-set>
 
 

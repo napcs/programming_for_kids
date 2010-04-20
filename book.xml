@@ -24,12 +24,21 @@
         <surname>Hogan</surname>
       </personname>
     </author>
+    <author>
+      <personname>
+        <firstname>John</firstname>
+        <surname>Hobbs</surname>
+      </personname>
+    </author>
   </info>
 
   
     <!-- Chapters -->
     <!-- Create a chapter file, write it up, and include it! -->
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter_rock_paper_scissors.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter_hangman.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter_maze.xml"/>
+    
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="credits.xml"/>
     
 
