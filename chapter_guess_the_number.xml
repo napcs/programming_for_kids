@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter [
+<!ENTITY % allent SYSTEM "w3centities-f.ent">
+%allent;
+]>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+      
+      <title>Guess The Number</title>
+      <para>This is a really simple "Guess The Number" game. The computer picks a random number between zero and any number you tell it. You then try to guess the number, and the computer will give you hints.</para>
+      
+      <screen><![CDATA[Guess The Number!
+----
+I can guess a number between 1 and any number you give me.
+What's the highest number I should pick?
+10
+Ok, I will guess a number between 1 and 10
+Ok, guess the number!
+5
+Too high. Try again!
+Ok, guess the number!
+3
+Too high. Try again!
+Ok, guess the number!
+2
+You got it!]]></screen>
+      
+      <sect1 xml:id="sec.Guess.The.Number.Program.listing">
+        <title>Guess The Number Program listing</title>
+        <para>Create a file called <filename>guess_the_number.rb</filename> and type in this code.</para>
+        <programlisting language="ruby"><xi:include href="code/chapter_guess_the_number/guess_the_number.rb" parse="text"/></programlisting>
+        
+        <sect2>
+          <title>Running the game</title>
+          <para>Type <command>ruby guess_the_number.rb</command> to run the game!</para>
+        </sect2>
+        
+      </sect1>
+</chapter>

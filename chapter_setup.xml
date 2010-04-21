@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter [
+<!ENTITY % allent SYSTEM "w3centities-f.ent">
+%allent;
+]>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+      
+      <title>Getting Things Ready</title>
+      <para>In order for you to work with the games in this book, you'll need a few things set up. This chapter will help you get started. </para>
+      
+      <sect1 xml:id="sec.Installing.Ruby">
+        <title>Installing Ruby</title>
+
+        <sect2 xml:id="sec.rb.Windows">
+          <title>Windows</title>
+          <para>Download and install the Ruby Installer for Windows - <link xlink:href="http://rubyforge.org/frs/download.php/69034/rubyinstaller-1.8.7-p249-rc2.exe" />.</para>
+           
+        </sect2>
+        
+        <sect2 xml:id="sec.rb.Mac">
+          <title>Mac</title>
+          <para>If you have a Mac with Leopard or Snow Leopard, you already have everything you need to begin programming, as Ruby is already installed.</para>
+             
+        </sect2>
+        
+        <sect2 xml:id="sec.rb.Linux">
+          <title>Linux</title>
+          <para>Installing Ruby on Linux is different depending on what version of Linux you're using. </para>
+          <para>If you're using Ubuntu, one of the most popular versions of Linux, you can install Ruby with</para>
+        
+           <para><command>sudo apt-get install ruby-full</command></para>
+        </sect2>
+      </sect1>
+
+      <sect1 xml:id="sec.Installing.Python">
+        <title>Installing Python</title>
+
+        <sect2 xml:id="sec.py.Windows">
+          <title>Windows</title>
+          <para>Coming soon</para>
+           
+        </sect2>
+        
+        <sect2 xml:id="sec.py.Mac">
+          <title>Mac</title>
+          <para>coming soon</para>
+             
+        </sect2>
+        
+        <sect2 xml:id="sec.py.Linux">
+          <title>Linux</title>
+          <para>coming soon</para>
+             
+        </sect2>
+        
+      </sect1>
+
+</chapter>

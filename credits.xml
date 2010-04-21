@@ -14,9 +14,10 @@
       <title>Credits</title>
       <para>Many talented programmers have contributed their time and code to this effort.</para>
       <itemizedlist>
-        <listitem><para>Rock, Paper, Scissors (Python), <xref linkend="code.py.rock.paper.scissors" />, copyright 2010 John Hobbs</para></listitem>
-        <listitem><para>Hangman (Python), <xref linkend="code.py.hangman" />, copyright 2010 John Hobbs</para></listitem>
-        <listitem><para>Maze (Python), <xref linkend="code.py.maze" />, copyright 2010 John Hobbs</para></listitem>
+        <listitem><para><xref linkend="sec.Guess.The.Number.Program.listing" /> copyright 2010 Brian P. Hogan</para></listitem>
+        <listitem><para><xref linkend="code.py.rock.paper.scissors" />, copyright 2010 John Hobbs</para></listitem>
+        <listitem><para><xref linkend="code.py.hangman" />, copyright 2010 John Hobbs</para></listitem>
+        <listitem><para><xref linkend="code.py.maze" />, copyright 2010 John Hobbs</para></listitem>
         
       </itemizedlist>
         

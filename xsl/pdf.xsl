@@ -63,7 +63,7 @@ reference toc,title
 set       toc,title
 </xsl:param>
 
-<xsl:param name="toc.section.depth">1</xsl:param>
+<xsl:param name="toc.section.depth">0</xsl:param>
 
 <!-- fonts -->
 <xsl:param name="body.font.master">10</xsl:param>

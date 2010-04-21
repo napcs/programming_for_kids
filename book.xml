@@ -35,6 +35,12 @@
   
     <!-- Chapters -->
     <!-- Create a chapter file, write it up, and include it! -->
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter_intro.xml"/>
+    
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter_setup.xml"/>
+    
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter_guess_the_number.xml"/>
+    
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter_rock_paper_scissors.xml"/>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter_hangman.xml"/>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter_maze.xml"/>

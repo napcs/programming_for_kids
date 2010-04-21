@@ -28,15 +28,15 @@
         <para>
           You can use our words, or add your own if you like.
         </para>
-        <programlisting language="text">
-          <xi:include href="code/chapter_hangman/words.txt" parse="text"/>
-        </programlisting>
+        <programlisting language="text"><xi:include href="code/chapter_hangman/words.txt" parse="text"/></programlisting>
       </sect1>
       <sect1 id="code.py.hangman">
         <title>Hangman Program Listing - Python</title>
-        <programlisting language="python">
-          <xi:include href="code/chapter_hangman/hangman.py" parse="text"/>
-          
-        </programlisting>
+        <programlisting language="python"><xi:include href="code/chapter_hangman/hangman.py" parse="text"/></programlisting>
+        <sect2>
+          <title>Running the game</title>
+          <para>Type <command>python hangman.rb</command> to run the game!</para>
+        </sect2>
+      
       </sect1>
 </chapter>
