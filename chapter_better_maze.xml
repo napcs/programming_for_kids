@@ -27,11 +27,11 @@ mv<?xml version="1.0" encoding="UTF-8"?>
           </screenshot> 
         </figure>
       </sect1>
-      <sect2>
+      <sect1>
         <title>Game Rules</title>
         <para>Coming Soon</para>
-      </sect2>
-      <sect3>
+      </sect1>
+      <sect1>
         <title>Program Listing - maze.txt</title>
         <para>
           Your program needs maze to run, this file provides that maze.
@@ -43,11 +43,11 @@ mv<?xml version="1.0" encoding="UTF-8"?>
         <programlisting language="text">
 					<xi:include href="code/chapter_better_maze/maze.txt" parse="text"/>
      		</programlisting>
-      </sect3>
-      <sect4 xml:id="code.py.better.maze">
+      </sect1>
+      <sect1 xml:id="code.py.better.maze">
         <title>Program Listing - Python</title>
         <programlisting language="python">
 					<xi:include href="code/chapter_better_maze/better_maze.py" parse="text"/>
       	</programlisting>
-      </sect4>
+      </sect1>
 </chapter>
