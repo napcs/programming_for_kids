@@ -44,7 +44,7 @@
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter_rock_paper_scissors.xml"/>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter_hangman.xml"/>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter_maze.xml"/>
-    
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter_better_maze.xml"/>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="credits.xml"/>
     
 

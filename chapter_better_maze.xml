@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter [
+<!ENTITY % allent SYSTEM "w3centities-f.ent">
+%allent;
+]>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+
+      <title>Better Maze</title>
+      <sect1>
+        <title>The Game Plan</title>
+        <para>Coming Soon</para>
+        <figure xml:id="fig.">
+          <title></title>
+          <screenshot>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="chapter_better_maze.python.png" align="center" width="" />
+              </imageobject>
+              <caption><para>An Example Maze</para></caption>
+            </mediaobject>    
+          </screenshot> 
+        </figure>
+      </sect1>
+      <sect1>
+        <title>Game Rules</title>
+        <para>Coming Soon</para>
+      </sect1>
+      <sect1>
+        <title>Program Listing - maze.txt</title>
+        <para>
+          Your program needs maze to run, this file provides that maze.
+        </para>
+        <para>
+          You can use our maze shown below, or add your own if you like.  Just be sure
+          to include an "S" and an "E" in the maze for the start and end points.
+        </para>
+        <programlisting language="text"><xi:include href="code/chapter_better_maze/maze.txt" parse="text"/></programlisting>
+      </sect1>
+      <sect1 xml:id="code.py.better.maze">
+        <title>Better Maze Program Listing - Python</title>
+        <para>Create the file <filename>better_maze.py</filename> and type this code:</para>
+        <programlisting language="python"><xi:include href="code/chapter_better_maze/better_maze.py" parse="text"/></programlisting>
+        <sect2>
+          <title>Running the game</title>
+          <para>Type <command>python better_maze.rb</command> to run the game!</para>
+        </sect2>
+      
+      </sect1>
+</chapter>
