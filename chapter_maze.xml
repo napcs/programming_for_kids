@@ -48,7 +48,7 @@
 '------------++-+-+---------------'
         ]]></programlisting>
       </sect3>
-      <sect4>
+      <sect4 xml:id="code.py.maze">
         <title>Program Listing - Python</title>
         <programlisting language="python"><![CDATA[
 # -*- coding: utf-8 -*-
