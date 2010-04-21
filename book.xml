@@ -11,25 +11,28 @@
     xmlns:html="http://www.w3.org/1999/xhtml" 
     xmlns:db="http://docbook.org/ns/docbook" version="5.0">
   <info>
-    <title>Basic Games For Kids</title>
+    <title>Programming For Kids</title>
     <subtitle>Teaching Kids Programming The Fun Way!</subtitle>
     <copyright>
       <year>2010</year>
       <holder>A bunch of awesome programmers</holder>
       
     </copyright>
-    <author>
-      <personname>
-        <firstname>Brian</firstname>
-        <surname>Hogan</surname>
-      </personname>
-    </author>
-    <author>
-      <personname>
-        <firstname>John</firstname>
-        <surname>Hobbs</surname>
-      </personname>
-    </author>
+    <authorgroup>
+      <!-- should be alphabetical -->
+      <author>
+        <personname>
+          <firstname>John</firstname>
+          <surname>Hobbs</surname>
+        </personname>
+      </author>
+      <author>
+        <personname>
+          <firstname>Brian</firstname>
+          <surname>Hogan</surname>
+        </personname>
+      </author>
+    </authorgroup>
   </info>
 
   

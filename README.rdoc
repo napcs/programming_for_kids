@@ -1,4 +1,5 @@
-=Basic Games For Kids
+=Programming For Kids
+
 When I grew up, I learned to program by typing in BASIC code from the back of magazines and from books I found at the library. There doesn't seem to be anything like that anymore, but I think it's a great way to learn so I'm proposing we bring that back, but use modern languages like Python and Ruby to write simple games. 
 
 == What are you talking about, dude?
@@ -11,6 +12,16 @@ The kid types the game, and he or she then gets to play it. Great for 4th-6th gr
 
 == What languages?
 I think we need to keep it simple. I'm going to do my examples in very basic Ruby, although it would be nice to see Python too. If we get enough contributers, maybe we do this in two parts, or we do each program in multiple languages. 
+
+== How to Get The Book
+
+You can download a stable copy from
+
+  http://www.napcs.com/files/programmingforkids/
+  
+We'll build a new copy once every few days.
+
+Once we have serious contribution and we've done editing, we'll do a formal launch.
 
 == How to contribute
 Fork this, write a chapter and commit it to the repository. That's it. Please please please make your commits self-contained if possible. Send me a commit I can merge in. Don't modify book.xml or any of the other files in your commit, or at least check in your files into a separate commit I can easily snag. Otherwise send a patch I can apply. That workflow might look like this:
