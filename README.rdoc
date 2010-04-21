@@ -1,5 +1,5 @@
 =Basic Games For Kids
-When I grew up, I learned to program by typing in BASIC code from the back of magazines and from books I found at the library. There doesn't seem to be anything like that anymore, but I think it's a great way to learn so I'm proposing we bring that back.
+When I grew up, I learned to program by typing in BASIC code from the back of magazines and from books I found at the library. There doesn't seem to be anything like that anymore, but I think it's a great way to learn so I'm proposing we bring that back, but use modern languages like Python and Ruby to write simple games. 
 
 == What are you talking about, dude?
 
@@ -81,7 +81,7 @@ You can include a screenshot with this markup
 Put images in the images/png folder in a subfolder with the same name as your chapter.
     
 == How to get a PDF or HTML
-This will build using the Short Attention Span Docbook chain (http://github.com/napcs/docbook) or pretty much any other docbook system that uses Docbook 5. Oxygen's built-in system seems to work just fine. I'll try to set up a continuous integration system somewhere in the future once there's some serious content, and I'll build frequent copies and link them here.
+This will build using the Short Attention Span Docbook chain (http://github.com/napcs/docbook) or pretty much any other docbook system that uses Docbook 5. Oxygen's built-in system seems to work just fine. I'll try to set up a continuous integration system somewhere in the future once there's some serious content, and I'll build frequent copies and link them here. Once there's significant content, we'll do a formal launch of the book. 
 
 == License
 Let's leave this completely open. The book's content is licensed under Creative Commons.
