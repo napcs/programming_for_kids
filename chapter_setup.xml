@@ -12,7 +12,7 @@
       xmlns:db="http://docbook.org/ns/docbook">
       
       <title>Getting Things Ready</title>
-      <para>In order for you to work with the games in this book, you'll need a few things set up. This chapter will help you get started. </para>
+      <para>In order for you to work with the games in this book, you'll need a few things set up. This chapter will help you get started.</para>
       
       <sect1 xml:id="sec.Installing.Ruby">
         <title>Installing Ruby</title>
@@ -26,16 +26,20 @@
         <sect2 xml:id="sec.rb.Mac">
           <title>Mac</title>
           <para>If you have a Mac with Leopard or Snow Leopard, you already have everything you need to begin programming, as Ruby is already installed.</para>
-             
         </sect2>
         
-        <sect2 xml:id="sec.rb.Linux">
-          <title>Linux</title>
-          <para>Installing Ruby on Linux is different depending on what version of Linux you're using. </para>
-          <para>If you're using Ubuntu, one of the most popular versions of Linux, you can install Ruby with</para>
-        
-           <para><command>sudo apt-get install ruby-full</command></para>
+        <sect2 xml:id="sec.rb.Ubuntu">
+          <title>Ubuntu</title>
+          <para>On Ubuntu, Ruby can be installed with</para>
+            <para><command>sudo apt-get install ruby-full</command></para>
         </sect2>
+
+	<sect2 xml:id="sec.rb.Gentoo">
+          <title>Gentoo</title>
+	  <para>On Gentoo, Ruby can be installed with</para>
+	    <para><command>sudo emerge dev-lang/ruby</command></para>
+	</sect2>
+
       </sect1>
 
       <sect1 xml:id="sec.Installing.Python">
