@@ -64,12 +64,12 @@ def main ():
 	print "  Welcome To Hangman!"
 	print
 
-	while 7 > len( missed ) and found < len( word ):
+	while len( missed ) < 7 and len( word ) > found:
 		showState( missed, guessed, stub )
 		while True:
 			guess = raw_input( "  Guess A Letter: " ).upper()
 			print
-			if 1 != len( guess ):
+			if len( guess ) != 1:
 				print "  Oops! You can only guess one letter at a time. Try again!"
 				print
 			elif guess in guessed:
@@ -91,7 +91,7 @@ def main ():
 
 	showState( missed, guessed, stub )
 
-	if 7 <= len( missed ):
+	if len( missed ) >= 7:
 		print "  You lost!"
 		print
 		print "  The word was", word
