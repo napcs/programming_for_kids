@@ -47,20 +47,24 @@
 
         <sect2 xml:id="sec.py.Windows">
           <title>Windows</title>
-          <para>Coming soon</para>
+          <para>Download and install the Python 2.6 Installer for Windows - <link xlink:href="http://python.org/ftp/python/2.6.5/python-2.6.5.msi" />.</para>
            
         </sect2>
         
         <sect2 xml:id="sec.py.Mac">
           <title>Mac</title>
-          <para>coming soon</para>
-             
+          <para>Download and install the Python 2.6 Installer for Windows - <link xlink:href="http://python.org/ftp/python/2.6.5/python-2.6.5-macosx10.3-2010-03-24.dmg" />.</para>
         </sect2>
         
-        <sect2 xml:id="sec.py.Linux">
-          <title>Linux</title>
-          <para>coming soon</para>
-             
+        <sect2 xml:id="sec.py.Ubuntu">
+          <title>Ubuntu</title>
+          <para>Ubuntu comes with python pre-installed.</para>
+        </sect2>
+
+	<sect2 xml:id="sec.py.Gentoo">
+	  <title>Gentoo</title>
+	  <para>On Gentoo, Python can be installed with</para>
+	    <para><command>sudo emerge dev-lang/python</command></para>
         </sect2>
         
       </sect1>
